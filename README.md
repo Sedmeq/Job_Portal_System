@@ -1,42 +1,51 @@
-# 💼 JobPortalSystem
+# 💼 Job Portal System
 
-## 📜 Description
+A modern Job Portal system built using **Java 17** and **Spring Boot**, allowing job seekers to browse and apply to jobs, while admins can manage job posts, categories, and employers.
 
-**JobPortalSystem** is a modern platform that connects job seekers and employers. Users can post job vacancies, apply for jobs, and track application statuses. Built using **Spring Boot** and **PostgreSQL**, the system is secure, scalable, and easy to deploy thanks to full **Docker** support.
+---
 
-## 🎯 Features
+- 🗂 **Categorized Job Listings**: Jobs are organized under relevant categories for easier navigation.
+- 👤 **Employer Profiles**: Information about employers and workplaces is accessible for applicants.
+- 📝 **Application Tracking**: Users can apply for jobs and view the full list of jobs they’ve applied to.
+- 🔄 **Full CRUD Operations**: All core entities (jobs, categories, companies, applications, users) support full Create, Read, Update, and Delete operations.
+- 🔐 **JWT Authentication & Role-based Authorization**: Secure access to endpoints for users and administrators.
+- 📖 **Interactive API Documentation**: Swagger UI integration for testing and exploring APIs.
 
-- 🔐 **User Registration & Authentication**: Secure login and registration using JWT tokens.
-- 📝 **Job Management**: Employers can create, update, and delete job postings.
-- 🔍 **Job Search & Filtering**: Users can search for jobs by location and title.
-- 📄 **Application Workflow**: Job seekers can apply to jobs and track their application status.
-- 🛡️ **Admin Panel**: Admins can manage all job posts and applications.
-- 📑 **Swagger API Documentation**: All endpoints are documented and testable via Swagger UI.
 
-## 🛠️ Technologies Used
+## 🔧 Tech Stack
 
-- **Java 17**
-- **Spring Boot** (Spring Web, Spring Data JPA, Spring Security)
-- **PostgreSQL**
-- **Lombok**
-- **Docker & Docker Compose**
-- **Gradle**
-- **JWT (JSON Web Tokens)**
-- **Swagger**
+| Layer          | Technology                                               |
+|----------------|----------------------------------------------------------|
+| 💻 Language      | Java 17                                                  |
+| 🌱 Framework     | Spring Boot (Web, Data JPA, Security, Validation)       |
+| 🛢 Database      | PostgreSQL                                               |
+| 🧰 Build Tool    | Gradle                                                   |
+| 📦 Dependency   | Spring Dependency Management Plugin                      |
+| 🎯 Auth         | JWT (via `jjwt`)                                         |
+| 🪄 Boilerplate  | Lombok                                                   |
+| 📖 Docs         | Swagger UI (via Springdoc OpenAPI)                       |
+| 🧪 Testing      | JUnit, Spring Boot Test                                  |
 
-## 🚀 Installation & Setup
+---
 
-### 🔹 Prerequisites
+## 🌟 Features
 
-Ensure you have the following installed:
+### 👥 For Job Seekers
+- 🔍 Browse all job vacancies
+- 📝 Apply for available jobs
+- 📂 View jobs you’ve applied to
+- 🏢 View company/employer profiles
 
-- Java 17+
-- Gradle
-- Docker & Docker Compose
-- PostgreSQL (if running locally)
+### 🔐 For Admins
+- ➕ Create and manage job posts
+- 🗂 Add job categories
+- 🏭 Register/view company details
 
-### 🔹 Clone the Repository
+### ⚙️ System Features
+- ✅ User authentication and authorization (JWT + Spring Security)
+- 🔒 Secure REST APIs with role-based access control
+- 📖 Interactive API documentation (Swagger UI)
+- 📦 Gradle build automation
 
-```bash
-git clone https://github.com/Sedmeq/Job_Portal_System.git
-cd Job_Portal_System
+
+
