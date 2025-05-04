@@ -49,3 +49,19 @@ A modern Job Portal system built using **Java 17** and **Spring Boot**, allowing
 
 
 
+## 🚀 Installation & Setup
+
+### ✅ Prerequisites
+
+- Java 17+  
+- Gradle  
+- Docker & Docker Compose  
+- PostgreSQL (optional if not using Docker Compose)  
+
+---
+
+## 🔽 Clone the Repository
+
+```bash
+git clone https://github.com/Sedmeq/Job_Portal_System.git
+cd Job_Portal_System
