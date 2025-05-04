@@ -56,7 +56,7 @@ A modern Job Portal system built using **Java 17** and **Spring Boot**, allowing
 - Java 17+  
 - Gradle  
 - Docker & Docker Compose  
-- PostgreSQL (optional if not using Docker Compose)  
+- PostgreSQL  
 
 ---
 
